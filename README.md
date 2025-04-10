@@ -1,38 +1,65 @@
-🌸✨ Sistema de Gestión de Eventos Full Stack ✨🌸
-¡Hola! 👋 Aquí tienes todo lo que necesitas para hacer funcionar este proyecto super cute 💖 de gestión de eventos con Angular + .NET + SQL Server. ¡Vamos paso a pasito! 👣
 
-🌈 Paso 1: Prepara tu ambiente (¡Como decorar tu cuarto! 🎀)
-bash
-Copy
-# 1. Instala Node.js (v18+) - ¡El glitter de tu app!
+# 🌸✨ Sistema de Gestión de Eventos Full Stack ✨🌸
+
+¡Hola! 👋 Aquí tienes todo lo que necesitas para hacer funcionar este super cute proyecto de gestión de eventos con **Angular** + **.NET** + **SQL Server**. ¡Vamos paso a pasito! 👣
+
+---
+
+## 🌈 Paso 1: Prepara tu ambiente (¡Como decorar tu cuarto! 🎀)
+
+### 1. Instalar Node.js (v18+)
+Primero, necesitamos **Node.js** para ejecutar el frontend.
+
+```bash
 nvm install 18
+```
 
-# 2. Angular CLI (v19.2.6) - Nuestro pincel mágico ✨
+### 2. Instalar Angular CLI (v19.2.6)
+Con Angular CLI podremos crear y manejar nuestra aplicación frontend:
+
+```bash
 npm install -g @angular/cli@19.2.6
+```
 
-# 3. .NET 8 SDK - La base fuerte 💪
+### 3. Instalar .NET SDK (v8)
+La base para el backend:
+
+```bash
 winget install Microsoft.DotNet.SDK.8
-🧸 Paso 2: Configuración Backend (¡La cocina secreta! 🍳)
-🎀 appsettings.json (Tu receta favorita 📜)
-json
-Copy
+```
+
+---
+
+## 🧸 Paso 2: Configuración Backend (¡La cocina secreta! 🍳)
+
+### 🎀 Configuración de la conexión a la base de datos (appsettings.json)
+Asegúrate de tener el archivo `appsettings.json` configurado correctamente en el proyecto del backend:
+
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=EventDetailDB;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }
-🛠 Ejecuta el backend (¡Precalienta el horno! 🔥)
-bash
-Copy
-dotnet restore   # Prepara los ingredientes
-dotnet ef database update  # ¡Hornea la base de datos!
-dotnet run       # ¡Sirve en http://localhost:5023!
-💖 Nota importante: Nuestro backend es un poco tímido con Docker 🐳. A veces tiene problemas para conectar con SQL Server en contenedores. ¡Pero tenemos solución! 👇
+```
 
-🐻 Paso 3: Docker con amor (¡La mejor solución! 💌)
-🎀 docker-compose.yml (¡Nuestra cajita mágica!)
-yaml
-Copy
+### 🛠 Ejecutar el backend
+Ejecuta los siguientes comandos para restaurar las dependencias, crear la base de datos y ejecutar el backend:
+
+```bash
+dotnet restore   # Prepara las dependencias
+dotnet ef database update  # Crea la base de datos
+dotnet run       # Inicia el backend en http://localhost:5023
+```
+
+---
+
+## 💖 Paso 3: Docker con amor (¡La mejor solución! 💌)
+
+Si prefieres usar **Docker** para ejecutar el backend y SQL Server, te dejamos este archivo `docker-compose.yml`:
+
+### 🎀 Configuración de Docker
+```yaml
 version: '3.8'
 
 services:
@@ -44,7 +71,7 @@ services:
     ports:
       - "1433:1433"
     volumes:
-      - sql_data:/var/opt/mssql  # ¡Para que no se pierdan tus datos!
+      - sql_data:/var/opt/mssql  # ¡Persistencia de datos!
 
   webapi:
     build: .
@@ -53,38 +80,65 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - sqlserver  # ¡Primero el SQL, después el amor!
+      - sqlserver  # ¡Primero SQL, luego el backend!
 
 volumes:
-  sql_data:  # ¡Nuestro diario secreto!
-✨ Tip super importante: Usa siempre la misma versión de SQL Server en tu imagen Docker y en local. ¡Así evitamos dramas! 💃
+  sql_data:
+```
 
-🎨 Paso 4: Frontend Angular (¡La fiesta bonita! 🎉)
-🧸 environment.ts (¡Tu invitación digital!)
-typescript
-Copy
+### Solución de problemas Docker
+
+- **Si Docker no conecta con SQL Server:**  
+  Asegúrate de usar la misma versión de SQL Server en la imagen Docker y en local. Si el problema persiste, prueba con el siguiente comando:
+
+  ```bash
+  docker-compose down -v && docker-compose up
+  ```
+
+---
+
+## 🎨 Paso 4: Frontend Angular (¡La fiesta bonita! 🎉)
+
+### 🧸 Configuración de Angular
+Edita el archivo `environment.ts` para que el frontend apunte a tu API:
+
+```typescript
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://localhost:5023/api'  // ¡Donde vive el backend!
+  apiBaseUrl: 'http://localhost:5023/api'
 };
-🎀 Ejecuta el frontend (¡Que empiece la fiesta!)
-bash
-Copy
+```
+
+### 🎀 Ejecutar el frontend
+Ahora, ve a la carpeta de frontend y ejecuta los siguientes comandos:
+
+```bash
 cd frontend
-npm install   # ¡Abre los regalos!
-ng serve      # ¡Fiesta en http://localhost:4200!
-🍭 Problemas conocidos & Soluciones (¡Primeros auxilios! 🩹)
-Síntoma	Solución	Emoji
-SQL Server no quiere jugar 😾	Usa TrustServerCertificate=True en tu cadena de conexión	🛡️
-Docker no da abrazos 🐳❌	Prueba con docker-compose down -v y vuelve a intentar	🔄
-El backend está moody 🌧️	Verifica los logs con docker logs nombre_contenedor	🔍
-💌 Notita especial de Docker
-"Querido diario: Hoy el backend aún no está 100% amigable con Docker en producción. Pero si usas nuestra imagen oficial de SQL Server 2022, ¡todo será más fácil! 🐇✨"
+npm install   # Instala las dependencias
+ng serve      # Inicia el frontend en http://localhost:4200
+```
 
-🎊 ¡Y listo!
-Ahora tienes un sistema full stack funcionando como un sueño de algodón de azúcar 🍬. ¿Necesitas algo más? ¡Aquí estoy! 💖
+---
 
-Con cariño,
+## 🍭 Problemas conocidos & Soluciones (¡Primeros auxilios! 🩹)
+
+| Síntoma                              | Solución                                      | Emoji |
+|--------------------------------------|-----------------------------------------------|-------|
+| SQL Server no quiere jugar 😾        | Usa `TrustServerCertificate=True` en la cadena de conexión. | 🛡️ |
+| Docker no da abrazos 🐳❌            | Prueba con `docker-compose down -v` y luego `docker-compose up`. | 🔄 |
+| El backend está moody 🌧️            | Revisa los logs con `docker logs nombre_contenedor` para más detalles. | 🔍 |
+
+---
+
+## 💌 Notita especial de Docker
+"Querido diario: Hoy el backend aún no está 100% amigable con Docker en producción, pero si usas nuestra imagen oficial de SQL Server 2022, ¡todo será más fácil! 🐇✨"
+
+---
+
+## 🎊 ¡Y listo! 🎉
+Ahora tienes un sistema full stack funcionando como un sueño de algodón de azúcar 🍬. Si tienes alguna pregunta o necesitas ayuda, ¡aquí estoy! 💖
+
+Con cariño,  
 Tu asistente tech favorita ✨💻🌸
 
 PS: No olvides cambiar las contraseñas por unas super secretas 🤫🔑

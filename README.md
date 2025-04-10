@@ -1,6 +1,9 @@
 
 # 🌸✨ Sistema de Gestión de Eventos Full Stack ✨🌸
 
+![image](https://github.com/user-attachments/assets/a5e762c2-2b5c-43b0-b09e-ded20ae11058)
+
+
 ¡Hola! 👋 Aquí tienes todo lo que necesitas para hacer funcionar este super cute proyecto de gestión de eventos con **Angular** + **.NET** + **SQL Server**. ¡Vamos paso a pasito! 👣
 
 ---
@@ -38,7 +41,7 @@ Asegúrate de tener el archivo `appsettings.json` configurado correctamente en e
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=EventDetailDB;Trusted_Connection=True;TrustServerCertificate=True;"
+    "DevConnection": "Server=RONNY;Database=EventDetailDB;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True;"
   }
 }
 ```
@@ -97,6 +100,9 @@ volumes:
 
 ---
 
+![image](https://github.com/user-attachments/assets/836be3b8-50e6-4d60-a9a1-1bcf8b587259)
+
+
 ## 🎨 Paso 4: Frontend Angular (¡La fiesta bonita! 🎉)
 
 ### 🧸 Configuración de Angular
@@ -126,6 +132,8 @@ ng serve      # Inicia el frontend en http://localhost:4200
    ```bash
    npm install sweetalert2
 ```
+![image](https://github.com/user-attachments/assets/21eb13d3-df46-4610-a8af-f52157426ed1)
+
 
 -------
 

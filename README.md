@@ -118,13 +118,16 @@ npm install   # Instala las dependencias
 ng serve      # Inicia el frontend en http://localhost:4200
 ```
 
----
+-------
 
  **SweetAlert2 (para alertas interactivas y hermosas)**  
    ✨ Dale vida a las alertas de tu app con **SweetAlert2**. Si aún no lo has instalado, corre el siguiente comando:
 
    ```bash
    npm install sweetalert2
+```
+
+-------
 
 ## 🍭 Problemas conocidos & Soluciones (¡Primeros auxilios! 🩹)
 

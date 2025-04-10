@@ -1,0 +1,79 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)" class="cowboy-form">
+
+  <!-- ID (Asignado por defecto) -->
+  <div class="form-group cowboy-field">
+    <label for="id" class="cowboy-label">
+      <i class="fas fa-key"></i> ID del Evento
+    </label>
+    <input type="text" class="cowboy-input" id="id" name="id" 
+           [value]="service.formData.id || 'Pendiente (se asignará automáticamente)'" disabled>
+  </div>
+
+  <!-- Título -->
+  <div class="form-group cowboy-field">
+    <label for="titulo" class="cowboy-label">
+      <i class="fas fa-hat-cowboy"></i> Título del evento
+    </label>
+    <input type="text" class="cowboy-input" id="titulo" name="titulo"
+           [(ngModel)]="service.formData.titulo" #titulo="ngModel"
+           [ngClass]="{ 'cowboy-invalid': form.submitted && titulo.invalid }"
+           placeholder="Ej. Festival de Tostadas" required>
+    <div *ngIf="form.submitted && titulo.invalid" class="cowboy-error">
+      <i class="fas fa-exclamation-circle"></i> El título es obligatorio
+    </div>
+  </div>
+
+  <!-- Fechas -->
+  <div class="cowboy-row">
+    <div class="form-group cowboy-field half-width">
+      <label class="cowboy-label"><i class="fas fa-calendar-alt"></i> Fecha de inicio</label>
+      <input type="date" class="cowboy-input" name="fechaInicio"
+             [(ngModel)]="service.formData.fechaInicio" #fechaInicio="ngModel"
+             [ngClass]="{ 'cowboy-invalid': form.submitted && fechaInicio.invalid }" required>
+      <div *ngIf="form.submitted && fechaInicio.invalid" class="cowboy-error">
+        Fecha de inicio requerida.
+      </div>
+    </div>
+
+    <div class="form-group cowboy-field half-width">
+      <label class="cowboy-label"><i class="fas fa-calendar-check"></i> Fecha de fin</label>
+      <input type="date" class="cowboy-input" name="fechaFin"
+             [(ngModel)]="service.formData.fechaFin" #fechaFin="ngModel"
+             [ngClass]="{ 'cowboy-invalid': form.submitted && fechaFin.invalid }" required>
+      <div *ngIf="form.submitted && fechaFin.invalid" class="cowboy-error">
+        Fecha de fin requerida.
+      </div>
+    </div>
+  </div>
+
+  <!-- Tipo de evento -->
+  <div class="form-group cowboy-field">
+    <label class="cowboy-label"><i class="fas fa-star"></i> Tipo de evento</label>
+    <select class="cowboy-select" name="tipo" [(ngModel)]="service.formData.tipo" #tipo="ngModel"
+            [ngClass]="{ 'cowboy-invalid': form.submitted && tipo.invalid }" required>
+      <option [ngValue]="null" disabled>Selecciona un tipo</option>
+      <option [ngValue]="0">Conferencia</option>
+      <option [ngValue]="1">Taller</option>
+      <option [ngValue]="2">Seminario</option>
+      <option [ngValue]="3">Webinario</option>
+      <option [ngValue]="4">Otro</option>
+    </select>
+    <div *ngIf="form.submitted && tipo.invalid" class="cowboy-error">
+      Selecciona el tipo de evento.
+    </div>
+  </div>
+
+  <!-- Descripción (opcional) -->
+  <div class="form-group cowboy-field">
+    <label class="cowboy-label"><i class="fas fa-align-left"></i> Descripción</label>
+    <textarea class="cowboy-textarea" name="descripcion" rows="3"
+              [(ngModel)]="service.formData.descripcion"
+              placeholder="Ej. Evento dedicado a las mejores tostadas del norte."></textarea>
+  </div>
+
+  <!-- Botón de envío -->
+  <button type="submit" class="cowboy-btn">
+    <i class="fas fa-plus-circle"></i> Crear Evento
+  </button>
+
+</form>

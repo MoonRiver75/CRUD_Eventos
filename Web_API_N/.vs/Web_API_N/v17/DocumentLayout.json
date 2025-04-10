@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Romay\\Desktop\\Web_API_N\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\models\\eventdetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\models\\eventdetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\repositories\\eventdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\repositories\\eventdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\repositories\\ieventdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\repositories\\ieventdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\models\\eventdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\models\\eventdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\web_api_n.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\web_api_n.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\controllers\\eventdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\controllers\\eventdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\migrations\\eventdetailscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\migrations\\eventdetailscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|c:\\users\\romay\\desktop\\web_api_n\\web_api_n\\migrations\\20250405234221_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE0906-39CC-46BD-8E30-2A89DB00196F}|Web_API_N\\Web_API_N.csproj|solutionrelative:web_api_n\\migrations\\20250405234221_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Dockerfile",
+              "RelativeDocumentMoniker": "Web_API_N\\Dockerfile",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Dockerfile",
+              "RelativeToolTip": "Web_API_N\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T01:01:37.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Program.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Program.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Program.cs",
+              "RelativeToolTip": "Web_API_N\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:51:44.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\WeatherForecast.cs",
+              "RelativeToolTip": "Web_API_N\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:31:27.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Repositories\\EventDetailRepository.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Repositories\\EventDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Repositories\\EventDetailRepository.cs",
+              "RelativeToolTip": "Web_API_N\\Repositories\\EventDetailRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA0wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:36:07.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Models\\EventDetail.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Models\\EventDetail.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Models\\EventDetail.cs",
+              "RelativeToolTip": "Web_API_N\\Models\\EventDetail.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:26:05.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\appsettings.json",
+              "RelativeDocumentMoniker": "Web_API_N\\appsettings.json",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\appsettings.json",
+              "RelativeToolTip": "Web_API_N\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T21:14:03.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventDetailsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Models\\EventDetailsContext.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Models\\EventDetailsContext.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Models\\EventDetailsContext.cs",
+              "RelativeToolTip": "Web_API_N\\Models\\EventDetailsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:41:13.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEventDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Repositories\\IEventDetailRepository.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Repositories\\IEventDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Repositories\\IEventDetailRepository.cs",
+              "RelativeToolTip": "Web_API_N\\Repositories\\IEventDetailRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:33:14.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web_API_N.csproj",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Web_API_N.csproj",
+              "RelativeDocumentMoniker": "Web_API_N\\Web_API_N.csproj",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Web_API_N.csproj",
+              "RelativeToolTip": "Web_API_N\\Web_API_N.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T20:33:28.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Controllers\\EventDetailController.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Controllers\\EventDetailController.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Controllers\\EventDetailController.cs",
+              "RelativeToolTip": "Web_API_N\\Controllers\\EventDetailController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:52:46.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventDetailsContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Migrations\\EventDetailsContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Migrations\\EventDetailsContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Migrations\\EventDetailsContextModelSnapshot.cs",
+              "RelativeToolTip": "Web_API_N\\Migrations\\EventDetailsContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:38:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250405234221_First Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Migrations\\20250405234221_First Migration.cs",
+              "RelativeDocumentMoniker": "Web_API_N\\Migrations\\20250405234221_First Migration.cs",
+              "ToolTip": "C:\\Users\\Romay\\Desktop\\Web_API_N\\Web_API_N\\Migrations\\20250405234221_First Migration.cs",
+              "RelativeToolTip": "Web_API_N\\Migrations\\20250405234221_First Migration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:42:22.762Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

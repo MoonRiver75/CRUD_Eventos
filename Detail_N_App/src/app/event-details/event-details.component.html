@@ -1,0 +1,57 @@
+<div class="cowboy-header">
+    <h1 class="cowboy-title">Registro de Eventos Norteños</h1>
+  </div>
+  
+  <div class="cowboy-container">
+    <!-- Columna del Formulario -->
+    <div class="cowboy-form-column">
+      <app-event-detail-form></app-event-detail-form>
+    </div>
+  
+    <!-- Columna de la Lista -->
+    <div class="cowboy-list-column">
+      <ul class="cowboy-event-list">
+        <li class="cowboy-event-card" *ngFor="let pd of service.list">
+          <div class="cowboy-event-content" (click)="populateForm(pd)">
+  
+            <div class="cowboy-event-id">
+              <strong>ID:</strong> 🤠 {{ pd.id }}
+            </div>
+  
+            <div class="cowboy-event-title">
+              <strong>Título:</strong> 🐴 {{ pd.titulo }}
+            </div>
+  
+            <div class="cowboy-event-date">
+              <strong>Fechas:</strong>
+              <i class="fas fa-calendar-alt"></i> {{ pd.fechaInicio | date:'mediumDate' }}
+              <i class="fas fa-arrow-right"></i>
+              <i class="fas fa-calendar-check"></i> {{ pd.fechaFin | date:'mediumDate' }}
+            </div>
+  
+            <div class="cowboy-event-type">
+              <strong>Tipo de evento:</strong>
+              <span class="cowboy-tag" [ngClass]="'cowboy-tag-' + pd.tipo">
+                {{
+                  pd.tipo === 0 ? 'Conferencia' :
+                  pd.tipo === 1 ? 'Taller' :
+                  pd.tipo === 2 ? 'Seminario' :
+                  pd.tipo === 3 ? 'Webinario' :
+                  pd.tipo === 4 ? 'Otro' : 'Desconocido'
+                }}
+              </span>
+            </div>
+  
+            <div class="cowboy-event-desc">
+              <strong>Descripción:</strong> 📜 {{ pd.descripcion }}
+            </div>
+          </div>
+  
+          <button class="cowboy-delete-btn" (click)="deleteRecord(pd.id)">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

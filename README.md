@@ -120,6 +120,12 @@ ng serve      # Inicia el frontend en http://localhost:4200
 
 ---
 
+ **SweetAlert2 (para alertas interactivas y hermosas)**  
+   ✨ Dale vida a las alertas de tu app con **SweetAlert2**. Si aún no lo has instalado, corre el siguiente comando:
+
+   ```bash
+   npm install sweetalert2
+
 ## 🍭 Problemas conocidos & Soluciones (¡Primeros auxilios! 🩹)
 
 | Síntoma                              | Solución                                      | Emoji |
@@ -138,7 +144,43 @@ ng serve      # Inicia el frontend en http://localhost:4200
 ## 🎊 ¡Y listo! 🎉
 Ahora tienes un sistema full stack funcionando como un sueño de algodón de azúcar 🍬. Si tienes alguna pregunta o necesitas ayuda, ¡aquí estoy! 💖
 
+
+
+
+# 🌸✨ Información Adicional ✨🌸
+
+¡Hola, hola! 💖 Aquí te dejo algunos detallitos súper importantes sobre el proyecto, ¡espero que te encanten! 😍
+
+---
+
+## 💖 Formulario Inteligente 💖
+
+El formulario fue creado con amor ❤️, basándome en varios libros y fuentes súper confiables sobre cómo hacer formularios de manera **inteligente** y **efectiva**. Una de las cosas que aprendí fue sobre la **validación de formularios**. Aunque nunca se habló de añadir validaciones, pensé que sería una idea muy **inteligente** hacerle saber al usuario si algo no está bien, ¿verdad? 💅🏼✨
+
+Entonces, empecé a añadir algunas validaciones para marcar los campos que podrían estar incorrectos, ¡para que el usuario no se preocupe por esos detalles! 😌 Es como si el formulario fuera una súper amiga diciéndote qué corregir. Se hicieron algunas pruebas, pero siempre hay espacio para **mejorar** y **añadir más validaciones** según se necesite. 💪
+
+---
+
+## 🐳 Docker con Amor 💕
+
+La idea inicial era dockerizar todo el proyecto desde el principio, ¡pero decidí dejarlo para probar las dos partes primero! 🌸
+
+La primera parte, el **frontend**, ¡sí está manejado por Docker! 🐳 Puedes desplegarlo usando Docker, pero también puedes hacerlo como te lo indican las instrucciones, ¡añadiendo la base de datos de la manera tradicional! Es como tener lo mejor de los dos mundos 😘✨
+
+---
+
+## 📦 El Patrocinador del Orden: El Repository Pattern 🎀
+
+Lo más emocionante de este proyecto fue usar el **Repository Pattern** (¡sí, lo usé por primera vez! 😱). Lo había escuchado antes, pero nunca lo había **aplicado**. Esta vez, lo puse en práctica de la mejor manera posible y, ¡me encanta cómo resultó! 💖 Algunas de las **ventajas** que me sorprendieron fueron que es mucho **más fácil de mantener** y, obvio, ¡**es mucho más fácil de escalar**! 🚀
+
+---
+
+## 🌟 ¡Muy emocionado! 🌟
+
+Estoy **tan emocionado** con este proyecto y muy **agradecido** con todos los que me han apoyado. ¡Espero recibir un feedback pronto y oír cosas súper positivas de parte de ustedes! 😄✨ Estoy segurísimo de que se nota el **cariño y el esfuerzo** que puse en todo este sistema 💕.
+  
+**Roldan Madero** 💖✨
 Con cariño,  
-Tu asistente tech favorita ✨💻🌸
+Tu asistente tech favorito ✨💻🌸
 
 PS: No olvides cambiar las contraseñas por unas super secretas 🤫🔑
